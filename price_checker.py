@@ -32,7 +32,7 @@ class priceCheck:
         print("Average Buy Price: %s gp" %itemData.get('buy_average'))
         print("Average Sell Price: %s gp" %itemData.get('sell_average'))
         print("Buying Quantity: %s" % itemData.get('buying_quantity'))
-        print("Selling Price: %s" % itemData.get('selling_quantity'))
+        print("Selling Quantity: %s" % itemData.get('selling_quantity'))
         print("\n")
 
     def pullJSON(self, item):

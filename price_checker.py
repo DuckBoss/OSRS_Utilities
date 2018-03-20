@@ -3,7 +3,7 @@ import json
 import datetime as dt
 
 class priceCheck:
-
+    # Grabs pricing data from rsbuddy
     jsonURL = "https://rsbuddy.com/exchange/summary.json"
 
     def __init__(self):
